@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCarBook.Persistence", "Infrastructure\CoreCarBook.Persistence\CoreCarBook.Persistence.csproj", "{63AE9998-025D-4D6C-AB08-606B1475099F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A42AD7B9-B925-4411-96E4-BA41682CC1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCarBook.Api", "Presentation\CoreCarBook.Api\CoreCarBook.Api.csproj", "{773C483E-A884-421E-A502-55339BA3F4A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{63AE9998-025D-4D6C-AB08-606B1475099F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63AE9998-025D-4D6C-AB08-606B1475099F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63AE9998-025D-4D6C-AB08-606B1475099F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773C483E-A884-421E-A502-55339BA3F4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773C483E-A884-421E-A502-55339BA3F4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773C483E-A884-421E-A502-55339BA3F4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773C483E-A884-421E-A502-55339BA3F4A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{23218261-AB5D-4893-9EFC-CCFBDAF85147} = {ACCF2EC9-2B06-4861-8303-834B3C0F85A2}
 		{63AE9998-025D-4D6C-AB08-606B1475099F} = {8189FCE1-C4F7-46F2-81B1-1AE707248BC7}
+		{773C483E-A884-421E-A502-55339BA3F4A0} = {A42AD7B9-B925-4411-96E4-BA41682CC1CE}
 	EndGlobalSection
 EndGlobal
